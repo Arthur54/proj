@@ -1,0 +1,140 @@
+/* CSS DOCUMENT */
+
+/*-------------------------- GENERAL --------------------------*/
+body{
+	padding:0; margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+div, mg, p, a, ul, form, input, label, h2, h3{
+	padding:0; margin:0;
+	}
+img{ border:none;}
+a{ outline:none; text-decoration:none;}
+ul{ list-style-type:none;}
+.spacer{
+	line-height:0; font-size:0; clear:both;
+	}
+
+/*-------------------------- HEADER --------------------------*/
+div#header-bg{
+	background:#2B0D0A url(images/header-bg.gif) 0 100% repeat-x;
+	padding:32px 0 32px 0;
+	color:#FCF7CC;
+	}
+div#header-bg div#header{
+	width:922px; margin:0 auto;
+	}
+div#header-bg div#header img.logo{
+	float:left; margin:2px 0 0 0;
+	}
+
+/*-------------------------- LOGIN AREA --------------------------*/
+div#header-bg div#header div#login-bg{
+	float:right; width:580px;
+	background:url(images/login-middle-bg.gif) 0 0 repeat-x;
+ 	}
+div#header-bg div#header div#login-bg div#login-area{
+	width:580px;
+	background:url(images/login-left-bg.gif) 0 0 no-repeat;
+	}
+div#header-bg div#header div#login-bg div#login-area form{
+	width:557px; height:47px; padding:21px 0 0 23px;
+	background:url(images/login-right-bg.gif) 100% 0 no-repeat;
+	}
+div#header-bg div#header div#login-bg div#login-area form label{
+	background:url(images/login-icon.jpg) 0 2px no-repeat;
+	line-height:25px; font-size:22px; color:#FCF7CC;
+	padding:0 0 0 31px; float:left; margin:0 12px 0 0;
+	background-color:inherit;
+	}
+div#header-bg div#header div#login-bg div#login-area form input{
+	width:120px; height:18px; border:1px solid #924A43;
+	background-color:#70322C; font-size:10px; color:#fff;
+	line-height:10px; padding:5px 0 0 10px; float:left;
+	margin:0 12px 0 0;
+	}
+div#header-bg div#header div#login-bg div#login-area form input.login-btn{
+	width:52px; height:24px; border:none;
+	background:none; padding:0; margin:1px 0 0 0;
+	}
+/*-------------------------- Milieu -------------------------------*/
+div#milieu-bg{
+	width:600px;
+	height:450px;
+	background-color:white;
+}
+
+div#navbox{
+	float:left;
+	width:200px;
+	height:450px;
+	border-right: 1px solid black; 
+}
+
+div#navbox ul{
+	padding:10px;
+}
+
+div#navbox ul li a{
+	color:black;
+}
+
+div#navbox ul li a:hover{
+	padding:5px;
+}
+
+/*-------------------------- FOOTER PART --------------------------*/
+div#footer-bg{
+	background:#121212 url(images/footer-bg.gif) 0 0 repeat-x;
+	color:#B3AC8B;
+	}
+div#footer-bg div#footer-menu{
+	width:922px; margin:0 auto;
+	padding:33px 0 29px 0;
+
+	}
+div#footer-bg div#footer-menu ul.footMenu{
+	padding:0 0 0 0;
+	}
+div#footer-bg div#footer-menu ul.footMenu li{
+	float:left; background:url(images/footmenu-divider.gif) 0 3px no-repeat;
+	}
+div#footer-bg div#footer-menu ul.footMenu li.noDivider{
+	background:none;
+	}
+div#footer-bg div#footer-menu ul.footMenu li a{
+	color:#B3AC8B; font-size:11px; line-height:16px;
+	padding:0 7px 0 7px; display:block; margin:0 0 0 1px;
+	background-color:inherit;
+	}
+div#footer-bg div#footer-menu ul.footMenu li a:hover{
+	background-color:#262626;
+	color:#B3AC8B;
+	}
+div#footer-bg div#footer-menu p.copyright{
+	padding:5px 0 0 7px; color:#706933;
+	font-size:11px; line-height:11px;
+	background-color:inherit;
+	}
+div#footer-bg div#footer-menu p.copyright a{
+	color:#B3AC8B;
+	background-color:inherit;
+	}
+div#footer-bg div#footer-menu p.copyright a:hover{
+	color:#706933;
+	background-color:inherit;
+	}
+
+/*-------------------------- MISLENIOUS --------------------------*/
+.noBottomPadding{
+	padding-bottom:0 !important;
+	}
+.noBg{
+	background:none !important;
+	}
+.topPad{
+	padding-top:15px !important;
+	}
+
+
+
